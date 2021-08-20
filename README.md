@@ -53,6 +53,8 @@ $(function() {
 ```
 - Options are:
 - `minPasswordLength` integer value which matches the minimum password length in your own validation. Default value is 6.
+- `levelShortClassName` class name of the 'too short' password. Used on `progress-bar` div. Default value is `progress-bar-danger`.
+- `levelShortDescription` description of the 'too short' password. Default value is `Too short`.
 - `level0ClassName` class name of zxcvbn level 0 (weakest). Used on `progress-bar` div. Default value is `progress-bar-danger`.
 - `level0Description` description of zxcvbn level 0 (weakest). Default value is `Weak`.
 - `level1ClassName` class name of zxcvbn level 1. Used on `progress-bar` div. Default value is `progress-bar-danger`.
